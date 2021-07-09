@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato");
+
+body {
+  color: #000000;
+  background: linear-gradient(to right, #bf953f, #fcf6ba, #fbf5b7, #aa771c);
+  background-color: linear-gradient(
+    to right,
+    #bf953f,
+    #fcf6ba,
+    #fbf5b7,
+    #aa771c
+  );
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40pt;
+  height: 50%;
+  letter-spacing: 7.5px;
+  margin-bottom: 0.5em;
+  padding-top: 2em;
+  padding-bottom: 0em;
+  text-align: center;
+  word-spacing: 30px;
+}
+
+h2 {
+  font-size: 50pt;
+  letter-spacing: 5pt;
+}
+
+hr {
+  border: 44px solid;
+  border-color: #ffd700;
+}
+
+h3 {
+  padding-top: 0;
+  padding-bottom: 1em;
+  height: auto;
+  margin-top: 0em;
+  font-size: 25pt;
+}
+
+h4 {
+  color: rgb(160, 26, 26);
+  font-size: 25pt;
+  letter-spacing: 5pt;
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+
+nav {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-evenly;
+  padding: 0.75rem;
+}
+
+nav a {
+  border-bottom: 3px solid transparent;
+}
+nav a:hover {
+  border-bottom: 3px solid #080808;
+  transition: border-bottom 1s;
+}
+
+nav div {
+  text-align: center;
+  width: 18rem;
+}
+
+.donut-count {
+  font-size: 5rem;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.donuts-produced {
+  font-size: 1.5rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15em;
+  margin-right: 15em;
+}
+
+.flex > div {
+  text-align: center;
+  width: 20rem;
+}
+
+.click-donut-div {
+  text-align: center;
+}
+
+.donuts-per-second {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.sale-img {
+  height: 10rem;
+  width: auto;
+}
+.sale {
+  border-radius: 2rem;
+  height: 500px;
+  margin-top: 3rem;
+  padding-top: 4rem;
+}
+
+.sale h2 {
+  font-size: 18pt;
+  height: 3.75rem;
+}
+
+.add-donut {
+  border-radius: 6rem;
+  height: auto;
+  user-select: none;
+  width: 23rem;
+}
+
+.add-donut:hover {
+  cursor: grabbing;
+}
+
+.add-donut:active {
+}
+
+button {
+  background-color: #bf953f;
+  border: 0.15rem dashed #050505;
+  border-color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 18pt;
+  margin-top: 1em;
+  padding: 10px 10px;
+  text-align: center;
+  visibility: hidden;
+}
+button:hover {
+  cursor: grabbing;
+}
+
+button:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+.reset-div {
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  text-align: center;
+  visibility: visible;
+}
+.reset-button {
+  visibility: visible;
+}
+.leave-button {
+  visibility: visible;
+}
+
+.leave-div {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+  visibility: visible;
+}
+
+.container1 {
+  background: linear-gradient(-120deg, #d62121, #c72c2c, #3a1111);
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0.5em;
+  padding-top: 5em;
+}
+.header__nav_list {
+  background: linear-gradient(to right, #bf953f, #fcf6ba, #fbf5b7, #aa771c);
+  border: solid 2px #bd8c7d;
+  border-radius: 0.25%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header__nav_listItem {
+  justify-content: center;
+  list-style-type: none;
+  margin: 0.75rem;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.header__nav_listItem:hover {
+  background-color: #d1bfa7;
+  border: 0.5px solid #ffffff;
+  border-radius: 0;
+  padding: 2px;
+  transition: 1s;
+}
+#scroll-container {
+  border: none;
+  font-size: 26pt;
+  overflow: auto;
+  margin-bottom: 1em;
+  max-height: 3em;
+  text-align: center;
+}
+
+#scroll-text {
+  -moz-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+
+  animation: my-animation 13s linear infinite;
+  -moz-animation: my-animation 13s linear infinite;
+  -webkit-animation: my-animation 13s linear infinite;
+}
+
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+.footer {
+  color: black;
+  text-align: center;
+  background: #fcf6ba;
+}

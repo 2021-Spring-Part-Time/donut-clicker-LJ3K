@@ -1,13 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donut Clicker</title>
-  </head>
-  <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pączki Maker</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <header>
+        <h1>L.J.'s Pączki Place</h1>
+        <h4>Proudly Presents...</h4>
+        <h2>THE VIRTUAL PĄCZKI MAKER </h2>
+        <span></span><h4>"ITS NOT A DONUT!"</h4></span>
+
+        <div id="scroll-container">
+          <div id="scroll-text"><h3><span>Happiness Is a Warm Pączki............click, click!</span></h3<div>
+        </div>
+
+</header>
+        <div class="container1">
+          <div class="navigator">
+            <nav class="header__nav">
+              <ul class="header__nav_list">
+                <li class="header__nav_listItem"><a href="#">ABOUT US</a></li>
+                <li class="header__nav_listItem"><a href="http://en.wikipedia.org/wiki/P%C4%85czki">WHAT IS A PĄCZKI?</a></li>
+                <li class="header__nav_listItem"><a href="#">GAME INSPIRATION</a></li>
+                <li class="header__nav_listItem"><a href="#">DEVELOPER INFORMATION</a></li>
+              </ul>
+            </nav>
+          
+
+    <div class="main">
+        <div class="stats">
+            <div class="donut-count-div">
+                <h2 class="donut-count"></h2>
+            </div>
+            <div class="flex">
+                <div class="donut-multiplier-div sale">
+                    <img src="images/paczki1.png" class="sale-img" />
+                    <h2>PĄCZKI MULTIPLIERS</h2>
+                    <h2 class="donut-multiplier-count">0</h2>
+                    <p class="donut-multiplier-cost">10 Pączki needed to purchase your FIRST multiplier</p><p>(*After the purchase of your first multiplier the number of pączki needed increases by 10% for each subsequent purchase.)
+
+                    </p>
+                    <button visibility="hidden" class="add-donut-multiplier button">PURCHASE</button>
+
+                </div>
+                <div class="click-donut-div">
+                    <img class="add-donut" src="images/paczki2.png">
+                    <h3 class="donuts-per-click">CLICK THE STACK OF PĄCZKI TO BEGIN!</h3>
+                    <h2 class="donuts-per-second"> 0</h2>
+                </div>
+                <div class="auto-clicker-div sale">
+                    <img src="images/click.png" class="sale-img" />
+                    <h2>AUTO-CLICKERS</h2>
+                    <h2 class="auto-clicker-count">0</h2>
+                    <p class="auto-clicker-cost">100 Pączki needed to purchase your FIRST auto-licker</p><p>(*After the purchase of your first auto-clicker the number of pączki needed increases by 10% for each subsequent purchase.)</p>
+                    <button class="add-auto-clicker button">PURCHASE</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="reset-div">
+            <button class="reset-button">START FROM SCRATCH</button>
+        </div>
+
+        <div class="leave-div">
+         <a href="http://www.youtube.com/watch?v=GGpwhos1v3k"><button class="leave-button">LEAVE</button>
+      </div>
+    <script src="./app.js" type="module"></script>
+    <footer class="footer">
+        <strong class="footer__copyright">&copy;2021 Lawrence Jones</strong>
+      </footer>
+</body>
 </html>
